@@ -18,6 +18,8 @@ steps:
   - name: python
     entrypoint: pip
     args: ["install", "-r", "requirements.txt", "--user"]
+  options:
+     logging: NONE
 # [END cloudbuild_python_dependencies_yaml]
 
   # [START cloudbuild_python_tests_yaml]
