@@ -15,7 +15,7 @@
 # [START cloudbuild_python_dependencies_yaml]
 steps:
 options:
-     logging: NONE
+     logging: GCS_ONLY
   # Install dependencies
   - name: python
     entrypoint: pip
